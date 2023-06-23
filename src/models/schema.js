@@ -1,7 +1,7 @@
 export const schema = {
     "models": {
-        "Todos": {
-            "name": "Todos",
+        "Qualifications": {
+            "name": "Qualifications",
             "fields": {
                 "id": {
                     "name": "id",
@@ -10,15 +10,43 @@ export const schema = {
                     "isRequired": true,
                     "attributes": []
                 },
-                "name": {
-                    "name": "name",
+                "password": {
+                    "name": "password",
                     "isArray": false,
                     "type": "String",
                     "isRequired": false,
                     "attributes": []
                 },
-                "email": {
-                    "name": "email",
+                "untitledfield": {
+                    "name": "untitledfield",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "Acquisitiondate": {
+                    "name": "Acquisitiondate",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "QualificationsName": {
+                    "name": "QualificationsName",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "Point": {
+                    "name": "Point",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "EffectiveDate": {
+                    "name": "EffectiveDate",
                     "isArray": false,
                     "type": "String",
                     "isRequired": false,
@@ -42,7 +70,7 @@ export const schema = {
                 }
             },
             "syncable": true,
-            "pluralName": "Todos",
+            "pluralName": "Qualifications",
             "attributes": [
                 {
                     "type": "model",
@@ -69,6 +97,6 @@ export const schema = {
     },
     "enums": {},
     "nonModels": {},
-    "codegenVersion": "3.4.4",
-    "version": "e4dff8d242b13901cea333200e3f595f"
+    "codegenVersion": "3.4.3",
+    "version": "e3e0dbe52b78ada7b3893f92c1ac342a"
 };

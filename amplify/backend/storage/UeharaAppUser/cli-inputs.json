@@ -1,0 +1,14 @@
+{
+  "resourceName": "UeharaAppUser",
+  "tableName": "UeharaAppUser",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "Acquisitiondate",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
